@@ -272,7 +272,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ghcr.io/akhileshkumar11/checkoutservice:341fb3af896f6b6e72c45c6c1ea82e4b7221d8e2
+          image: ghcr.io/akhileshkumar11/checkoutservice:latest
           ports:
           - containerPort: 5050
           readinessProbe:
@@ -432,7 +432,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/akhileshkumar11/cartservice:c2c40020785e060d631f3444b616c07581ab5832
+        image: ghcr.io/akhileshkumar11/cartservice:latest
         ports:
         - containerPort: 7070
         env:
