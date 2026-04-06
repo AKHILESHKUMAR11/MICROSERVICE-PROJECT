@@ -8,11 +8,11 @@ metadata:
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP":80},{"HTTPS":443}]'
     alb.ingress.kubernetes.io/ssl-redirect: '443'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-south-1:585593375370:certificate/56595512-f87a-4a00-a4f8-feda78fbae1d
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-south-1:493168377279:certificate/f6d39597-50c6-498f-823c-b6c7c6f7c87b
 spec:
   ingressClassName: alb
   rules:
-    - host: djdjd.shop
+    - host: yuyur6r6r.shop
       http:
         paths:
           - path: /
