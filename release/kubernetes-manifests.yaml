@@ -272,7 +272,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ghcr.io/akhileshkumar11/checkoutservice:latest
+          image: ghcr.io/akhileshkumar11/checkoutservice:b2382c4dd32420d9142cd3390e4ea49045729c95
           ports:
           - containerPort: 5050
           readinessProbe:
