@@ -356,7 +356,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/akhileshkumar11/shippingservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/akhileshkumar11/shippingservice:33f13729094c9622110fa56ad280a988c152aee9
         ports:
         - containerPort: 50051
         env:
