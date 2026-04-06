@@ -297,6 +297,7 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::493168377279:role/GitHubActionsEKSDeployRole4MicroService
           aws-region: ${{ env.AWS_REGION }}
+          role-session-name: github-actions
 
       - name: Setup kubectl
         uses: azure/setup-kubectl@v4
