@@ -144,7 +144,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/akhileshkumar11/loadgenerator:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/akhileshkumar11/loadgenerator:237a86cee947747dc5aac94dbd21408fe5ce3911
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
