@@ -432,7 +432,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/akhileshkumar11/cartservice:latest
+        image: ghcr.io/akhileshkumar11/cartservice:c2c40020785e060d631f3444b616c07581ab5832
         ports:
         - containerPort: 7070
         env:
