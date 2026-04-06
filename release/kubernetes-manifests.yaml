@@ -33,7 +33,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/akhileshkumar11/currencyservice:8201243448cdc9aa51121ff08d54ad9903f9d057
+        image: ghcr.io/akhileshkumar11/currencyservice:latest
         ports:
         - name: grpc
           containerPort: 7000
@@ -144,7 +144,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/akhileshkumar11/loadgenerator:99e1e618f0bbcabe5c0a7d86f8db24470f973946
+        image: ghcr.io/akhileshkumar11/loadgenerator:latest
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
@@ -198,7 +198,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/akhileshkumar11/productcatalogservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/akhileshkumar11/productcatalogservice:latest
         ports:
         - containerPort: 3550
         env:
@@ -272,7 +272,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ghcr.io/akhileshkumar11/checkoutservice:4b191791af7d6ffa6f938bf3b34746892b013b2a
+          image: ghcr.io/akhileshkumar11/checkoutservice:latest
           ports:
           - containerPort: 5050
           readinessProbe:
@@ -356,7 +356,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/akhileshkumar11/shippingservice:33f13729094c9622110fa56ad280a988c152aee9
+        image: ghcr.io/akhileshkumar11/shippingservice:latest
         ports:
         - containerPort: 50051
         env:
@@ -432,7 +432,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/akhileshkumar11/cartservice:1d0236cafa6731d082768f0d2d6a3c2f43632db3
+        image: ghcr.io/akhileshkumar11/cartservice:latest
         ports:
         - containerPort: 7070
         env:
@@ -578,7 +578,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/akhileshkumar11/emailservice:d1b5f93be5e1e33f32e3c1fbd18bfa501577f34b
+        image: ghcr.io/akhileshkumar11/emailservice:latest
         ports:
         - containerPort: 8080
         env:
@@ -661,7 +661,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/akhileshkumar11/paymentservice:e8fdd88e064f1de344b76ec0fcf29ffc8bd7819f
+        image: ghcr.io/akhileshkumar11/paymentservice:latest
         ports:
         - containerPort: 50051
         env:
@@ -737,7 +737,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ghcr.io/akhileshkumar11/frontend:6ddc9ef0f082c8f1cc7e668f6f2a03918fa7da0a
+          image: ghcr.io/akhileshkumar11/frontend:latest
           ports:
           - containerPort: 8080
           readinessProbe:
@@ -866,7 +866,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/akhileshkumar11/recommendationservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/akhileshkumar11/recommendationservice:latest
         ports:
         - containerPort: 8080
         readinessProbe:
@@ -945,7 +945,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/akhileshkumar11/adservice:b1f9443439dd196893b88a1bf7cf482ecfc6dc46
+        image: ghcr.io/akhileshkumar11/adservice:latest
         ports:
         - containerPort: 9555
         env:
