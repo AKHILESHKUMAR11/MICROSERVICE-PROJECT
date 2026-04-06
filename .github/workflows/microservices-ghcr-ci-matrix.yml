@@ -288,6 +288,10 @@ jobs:
           ref: main
           fetch-depth: 0
 
+      - name: Debug OIDC
+        run: |
+           echo "OIDC URL: $ACTIONS_ID_TOKEN_REQUEST_URL"
+    
       - name: Configure AWS credentials from GitHub OIDC
         uses: aws-actions/configure-aws-credentials@v4
         with:
