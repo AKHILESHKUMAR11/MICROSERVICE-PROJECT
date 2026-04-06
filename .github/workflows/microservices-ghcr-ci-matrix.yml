@@ -13,7 +13,7 @@ permissions:
 
 env:
   REGISTRY: ghcr.io
-  USERNAME: AKHILESHKUMAR11
+  USERNAME: akhileshkumar11
 
 jobs:
   gitleaks:
